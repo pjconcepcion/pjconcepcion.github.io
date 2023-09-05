@@ -1,0 +1,12 @@
+.icon {
+  font-size: 35px;
+}
+
+.icon-lg {
+  font-size: 60px;
+}
+
+.chevron-down::after {
+  content: "\00BB";
+  transform: rotate(90deg);
+}

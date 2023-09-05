@@ -1,0 +1,65 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  font-weight: 600;
+  display: inline;
+}
+
+.text-subtitle {
+  font-size: 25px;
+}
+
+.text-semi-title {
+  font-size: 40px;
+}
+
+.text-title {
+  font-size: 100px;
+}
+
+.text-lighter {
+  font-family: "roboto extralight";
+  font-weight: 200;
+}
+
+.text-light {
+  font-family: "roboto light";
+  font-weight: 300;
+}
+
+.text-bold {
+  font-family: "roboto extrabold";
+  font-weight: 900;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-justify {
+  text-align: justify;
+}
+
+.bar-title-right {
+  margin-bottom: 10px;
+
+  ::after {
+    content: "";
+    border-right: 6px solid var(--color);
+    margin-left: 21px;
+  }
+}
+
+.bar-title-left {
+  margin-bottom: 10px;
+
+  ::before {
+    content: "";
+    border-left: 6px solid var(--color);
+    margin-right: 21px;
+  }
+}

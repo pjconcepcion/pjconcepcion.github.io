@@ -1,0 +1,22 @@
+@import url("./common/var.css");
+@import url("./common/text.css");
+@import url("./common/color.css");
+@import url("./common/container.css");
+@import url("./common/icon.css");
+@import url("./common/animation.css");
+
+@import url("./pages/navigation.css");
+@import url("./pages/intro.css");
+@import url("./pages/about.css");
+
+body,
+html {
+  margin: 0;
+  font-family: "roboto";
+  background-color: var(--grey);
+  height: max-content;
+  color: var(--black);
+  cursor: default;
+  user-select: none;
+  scroll-behavior: smooth;
+}

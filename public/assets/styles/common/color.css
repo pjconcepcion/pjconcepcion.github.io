@@ -1,0 +1,39 @@
+.text-red {
+  color: var(--red);
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.text-black {
+  color: var(--black);
+}
+
+.text-purple {
+  color: var(--purple);
+}
+
+.text-grey {
+  color: var(--grey);
+}
+
+.bg-red {
+  background-color: var(--red);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-black {
+  background-color: var(--black);
+}
+
+.bg-purple {
+  background-color: var(--purple);
+}
+
+.bg-grey {
+  background-color: var(--grey);
+}

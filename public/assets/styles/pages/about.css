@@ -1,0 +1,13 @@
+.about {
+  height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--black);
+  --color: var(--grey);
+  color: var(--grey);
+}
+
+.about-panel {
+  margin-bottom: 50px;
+  font-size: 18px;
+}

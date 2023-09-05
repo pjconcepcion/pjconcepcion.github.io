@@ -1,0 +1,21 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.col {
+  &:not(:first-child) {
+    margin-left: 15px;
+  }
+}
